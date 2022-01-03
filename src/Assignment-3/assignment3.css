@@ -5,3 +5,55 @@
 width: 100%;
 height: 100%;
 }
+.page{
+  border: 1px solid red;
+  height: 100vh;
+  margin: 10px;
+
+}
+.parts{
+  border: 1px solid red;
+  margin:10px ;
+  margin-left: 10px;
+  margin-right: 10px;
+  height:47.8%;
+  background-color: #f2f2f2;
+}
+.part-left{
+  text-align: center;
+  width: 50%;
+  margin: 10px;
+  
+}
+.part-right{
+  float: right;
+  width: 50%;
+}
+#render-wiki{
+  width:95%;
+  margin-top:-220px;
+  margin-left: 20px;
+  height: 40vh ;
+}
+.part-upper{
+  text-align: center;
+  display: inline-block;
+}
+#render-dictionary{
+ text-align: center;
+ width: 98%;
+ margin: 10px;
+ height: 130px;
+}
+.btn{
+  background:black;
+  border: 1px solid white;
+  color: white;
+  height:30px;
+  width: 150px;
+  vertical-align: middle;
+  padding: 15px;
+}
+.part-lower{
+  height: 100%;
+}
