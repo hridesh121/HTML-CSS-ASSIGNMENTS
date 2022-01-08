@@ -1,7 +1,130 @@
 /* Our CSS file. */
 
 
-.container, .content {
-width: 100%;
-height: 100%;
+/* .container{
+  width: 100%;
+  height: 200px;
+  } */
+body{
+  height: 50%;
+  width: 100%;
 }
+
+  header{
+      background: #077077;
+      color: white;
+      height: 50px;
+      padding:10px;
+    }  
+    header h1 {
+      float: left;
+    }
+    
+    header nav {
+      text-align: right;
+      margin-right: 30px;
+      margin-top: -50px;
+    }
+  
+    nav li {
+      display: inline-block;
+      padding: 17px 10px;
+
+    }
+    header h1 {
+      float: left;
+      display: none;
+    }
+    header img{
+      margin-left: 10px;
+    }
+    
+    nav li:hover {
+      background: #043546;
+      color: white;
+    }
+    
+    #hero {
+      background: url("./images/backgrond_img.jpg") no-repeat;
+      background-size: cover;
+      text-align: center;
+      padding: 50px ;
+      margin-bottom: 50px;
+      height: 100%;
+    }
+    #hero img {
+      display: block;
+      margin: auto;
+      margin-bottom: 25px;
+      border-radius: 50%;
+      border: 5px solid #f1b7163a;
+    }
+    
+    #hero h2 {
+      font-size: 30px;
+      margin-bottom: 25px;
+    }
+    
+    .three-col {
+      width: 30%;
+      display: inline-block;
+      text-align: center;
+      vertical-align: top;
+      margin: 0 10px;
+    }
+    .three-col img {
+      border-radius: 50%;
+      border: 3px solid #13181a;
+      height: 200px;
+      width: 200px;
+      margin: 25px 0;
+    }
+    .three-col p {
+      margin-bottom: 40px;
+    }
+    
+    footer {
+      background: #3F8DA7;
+      color: white;
+      margin-top: 40px;
+      padding: 20px 0;
+      text-align: center;
+  }
+  footer ul {
+    margin: 40px 0;
+  }
+  
+  footer li {
+    display: inline-block;
+    margin: 0 25px;
+  }
+  .btn {
+    background: white;
+    border: 5px solid #e7eb0f;
+    color: #3F8DA7;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  
+  .btn:hover {
+    background: #3F8DA7;
+    color: white;
+    padding: 5px 10px;
+    
+  }
+  .link {
+    color: white
+  }
+  
+  .link:hover {
+    color: #92E0E5;
+  }
+  h3{
+    color: #3F8DA7;
+    font-weight: bolder;
+  }
+  footer a{
+    text-decoration: none;
+  }
+  
