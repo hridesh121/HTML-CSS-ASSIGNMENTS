@@ -37,6 +37,7 @@ body{
     }
     header img{
       margin-left: 10px;
+      border-radius: 50%;
     }
     
     nav li:hover {
@@ -92,6 +93,7 @@ body{
   }
   footer ul {
     margin: 40px 0;
+
   }
   
   footer li {
